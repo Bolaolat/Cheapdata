@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    background: linear-gradient(45deg, #f3e5ab, #c6e2ff, #ffb6b9, #91f9e5);
+    margin: 0;
+    font-family: sans-serif; /* Choose a preferred font */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0; 
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    text-align: center;
+}
+
+/* Data Plans */
+.plans {
+    text-align: center;
+    margin: 40px 0; 
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white; 
+    background-color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.button.yellow { background-color: #ffc107; } 
+.button.green  { background-color: #28a745; }  
+.button.red    { background-color: #dc3545; }
+.button.blue   { background-color: #007bff; }  
+
+.button:hover {
+    background-color: #222; /* Darker background on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* ... Your loader CSS remains the same  ... */
+
